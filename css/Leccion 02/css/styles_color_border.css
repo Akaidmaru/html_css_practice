@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.rojo{
+    border: 10px solid firebrick;
+}
+
+.rosa{
+    border: 10px dashed #ff6996;
+}
+
+.amarillo{
+    border: 10px double rgb(255, 215, 0);
+}
+
+.azul{
+    border: 10px dotted hsl(174, 72%, 56%);
+}

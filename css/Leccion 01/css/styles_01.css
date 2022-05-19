@@ -1,0 +1,21 @@
+
+*{/*universal selector*/
+    background-color: ghostwhite;
+    color: cornflowerblue
+}
+/*h1 {
+    color: aqua !important;  !important attribute makes top priority this attribute
+}*/
+
+#titulo{/*ID selector*/
+    color:crimson;
+    text-align: center;
+}
+
+.centrar{/*Class Selector*/
+    text-align: center;
+}
+
+.texto_grande{
+    font-size: 20px;
+}
