@@ -1,0 +1,27 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-decoration: overline underline;/*through, underline, none, overline*/
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/
+    text-indent: 30px;
+    line-height: 1.5; /* default is 1.2 */
+    white-space: normal;/* nowrap makes the text skip the div's box*/
+    text-shadow: 1px 1px 2px #ced4da;
+}
