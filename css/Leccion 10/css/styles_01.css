@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+
+div.absoluto{
+    /*max-width: 50%;*/
+    border: 3px solid firebrick;
+    /*margin: auto;*/
+    position: absolute;/*default value is static, with fixed it aligns with the viewport and keeps this position even if moving like chats, with relative it moves some quantity from its original position without losing it. absolute makes its container to align with the parent container*/
+    bottom: 20px;
+    right: 10px;
+}

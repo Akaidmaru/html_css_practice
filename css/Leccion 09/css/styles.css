@@ -1,0 +1,31 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block; /*block is the default value for these*/
+}
+
+h1{
+    display: none;
+}
+
+p{
+    visibility: hidden;
+}
+
+span{
+    display: inline; /*this is default for span*/
+    border: 1px solid blue;
+}
+
+a{
+    display: block;/*default value is inline*/
+    text-align: left;/*default value*/
+}
+
+
+li{
+    display: inline;/* default value is block*/
+}
+
